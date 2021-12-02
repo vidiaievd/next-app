@@ -1,0 +1,16 @@
+.filled svg {
+	fill: blue;
+}
+
+.star svg {
+	margin-right: 5px;
+	outline: none;
+}
+
+.star svg:focus {
+	outline: 1px solid grey;
+}
+
+.editable {
+	cursor: pointer;
+}

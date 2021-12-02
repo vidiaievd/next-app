@@ -1,0 +1,32 @@
+{
+  "name": "soap-site",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cross-env": "^7.0.3",
+    "date-fns": "^2.27.0",
+    "next": "12.0.4",
+    "nextjs-progressbar": "^0.0.13",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.0.0",
+    "@types/classnames": "^2.3.1",
+    "@types/react": "^17.0.37",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.4",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "stylelint": "^14.1.0",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-order": "^5.0.0"
+  }
+}
